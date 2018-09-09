@@ -1,0 +1,204 @@
+
+body {
+        color:#fff;
+        background: #1c1c1c url('images/bg.gif');
+        margin:20px;
+        padding:0px;
+        font:14px verdana, arial, helvetica, sans-serif;
+        }
+h1 {
+        margin:0em 0em 1em 0em;
+        padding:0px;
+        font-size:1.6em;
+        font-weight:900;
+        color:#fff;
+        }
+h2 {
+        font:bold 1.3em verdana, arial, helvetica, sans-serif;
+        margin:0em 0em 0.4em 0em;
+        padding:0px;
+        }
+code { color: #aff; }
+li {margin-top:0.7em;}
+
+.message {
+        color:#f55;
+        font:bold 1.3em verdana, arial, helvetica, sans-serif;
+        margin:0em 0em 0.4em 0em;
+      }
+        /*
+p {
+        font:16px/20px verdana, arial, helvetica, sans-serif;
+        margin:0px 0px 16px 0px;
+        padding:0px;
+        }
+          */
+.Content>p {margin:0px;}
+.Content>p+p {text-indent:30px;}
+
+a {
+        color:#bb3;
+/*        font-family:verdana, arial, helvetica, sans-serif;
+        font-weight:600;
+ *        */
+        text-decoration:none;
+        }
+a:hover {background-color:#eee;}
+a img{ border:0px; } 
+/*
+a:link {color:#bb3;}
+a:visited {color:#29e;}
+*/
+
+/* All the content boxes belong to the content class. */
+.content {
+        position:relative; /* Position is declared "relative" to gain control of stacking order (z-index). */
+        width:auto;
+        min-width:120px;
+        margin:0px 210px 20px 202px;
+        /*border:1px solid black;*/
+        /*background-color:white;*/
+        padding:0.6em 0.6em 2em 0.6em;
+        z-index:3; /* This allows the content to overlap the right menu in narrow windows in good browsers. */
+        }
+
+.content #ptitle {
+        font-size: 32px; 
+        color: #fff; 
+        margin:0.5em 0em 1.5em 0em;
+      }
+
+.content img { margin:0px; }
+
+.newsbox {
+        margin:2em 220px 0em 212px;
+        padding:0.5em;
+      }
+
+.datebox {
+        color:#666;
+        font-size:0.8em;
+        border:0px;
+        width:8em;
+        float:right;
+        margin-top: -1.2em;
+        padding-left:2em;
+        background-color:#1c1c1c;
+        z-index:4;
+      }
+
+#footer
+{
+  color:#666;
+  position: relative;
+  font-size: 0.5em;
+  border-top: dashed 1px #444;
+  padding: 1em 0em 2em 0em;
+  margin:3em 210px 20px 202px;
+  text-align: center;
+}
+#footer a{
+  color:#551;
+}
+
+
+#navAlpha {
+        position:absolute;
+        float:left;
+        width:182px;
+        top:20px;
+        left:20px;
+        padding:10px;
+        z-index:2;
+
+/* Here is the ugly brilliant hack that protects IE5/Win from its own stupidity. 
+Thanks to Tantek Celik for the hack and to Eric Costello for publicizing it. 
+IE5/Win incorrectly parses the "\"}"" value, prematurely closing the style 
+declaration. The incorrect IE5/Win value is above, while the correct value is 
+below. See http://glish.com/css/hacks.asp for details. */
+        voice-family: "\"}\"";
+        voice-family:inherit;
+        width:160px;
+        }
+/* I've heard this called the "be nice to Opera 5" rule. Basically, it feeds correct 
+length values to user agents that exhibit the parsing error exploited above yet get 
+the CSS box model right and understand the CSS2 parent-child selector. ALWAYS include
+a "be nice to Opera 5" rule every time you use the Tantek Celik hack (above). */
+body>#navAlpha {width:160px;}
+
+#navAlpha .menubox {
+  width:130px;
+  font-size:1.8em;
+  line-height: 1.8em;
+  letter-spacing: 0.1em;
+  text-align: right;
+  margin:1em 0em 1em 0em;
+}
+
+#navAlpha .menubox_en {
+  width:130px;
+  font-size:1.3em;
+  line-height: 1.3em;
+  text-align: center;
+  margin:1em 0em 1em 0em;
+}
+
+#navAlpha .menubox_en .item_en{
+  margin:1em 0em 1em 0em;
+}
+
+#navAlpha a{
+  color:#fff;
+}
+
+#navAlpha .menubox a{
+  color:#e73;
+}
+#navAlpha .menubox_en a{
+  color:#e73;
+}
+
+#bookmarkarea {
+  position: absolute;
+  top:25px;
+  right:240px;
+  z-index:99;
+}
+
+#loginarea {
+        position:absolute;
+        width:190px;
+        top:20px;
+        right:20px;
+        /*border:1px dashed black;*/
+        /* background-color:#eee;*/
+        padding:10px;
+        z-index:1;
+/* Again, the ugly brilliant hack. */
+        voice-family: "\"}\"";
+        voice-family:inherit;
+        width:168px;
+        }
+/* Again, "be nice to Opera 5". */
+body>#loginarea {width:168px;}
+
+               
+#navBeta {
+        position:absolute;
+        width:190px;
+        top:220px;
+        right:20px;
+        /*
+        border:1px dashed black;
+         background-color:#eee;*/
+        padding:10px;
+        z-index:1;
+/* Again, the ugly brilliant hack. */
+        voice-family: "\"}\"";
+        voice-family:inherit;
+        width:168px;
+        }
+/* Again, "be nice to Opera 5". */
+body>#navBeta {width:168px;}
+
+
