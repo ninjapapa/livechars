@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <title>LiveChars</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="Content-Language" content="zh-cn" />
   <link href="livechars.css?v=1.02" rel="stylesheet" type="text/css" />
   <link rel="SHORTCUT ICON" type="image/x-icon" href="images/tiny_logo.ico"/>
