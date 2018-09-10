@@ -1,14 +1,14 @@
-ÎÞÂÛÄãÊ¹ÓÃÊ²Ã´²Ù×÷ÏµÍ³£¬ÎÞÂÛÄãµÄä¯ÀÀÆ÷ÊÇIE£¬FireFox£¬»¹ÊÇChrome£¬Ö»ÒªÄãÄÜä¯ÀÀÖÐÎÄÒ³Ãæ£¬Äã¾Í¿ÉÒÔÊ¹ÓÃ¡°»î×Ö¡±£¨LiveChars)ÔÚ¸÷¸öÖÐÎÄÂÛÌ³¡¢²©¿Í¡¢ÍøÂçÓÊ¼þÖÐ×ÔÓÉ·½±ãµÄÊäÈëÖÐÎÄ£¡
+æ— è®ºä½ ä½¿ç”¨ä»€ä¹ˆæ“ä½œç³»ç»Ÿï¼Œæ— è®ºä½ çš„æµè§ˆå™¨æ˜¯IEï¼ŒFireFoxï¼Œè¿˜æ˜¯Chromeï¼Œåªè¦ä½ èƒ½æµè§ˆä¸­æ–‡é¡µé¢ï¼Œä½ å°±å¯ä»¥ä½¿ç”¨â€œæ´»å­—â€ï¼ˆLiveChars)åœ¨å„ä¸ªä¸­æ–‡è®ºå›ã€åšå®¢ã€ç½‘ç»œé‚®ä»¶ä¸­è‡ªç”±æ–¹ä¾¿çš„è¾“å…¥ä¸­æ–‡ï¼
 <ul>
-  <li>Çë°Ñ
-      <a href="javascript:var%20l=%27http://www.livechars.com/%27;(function(){var%20e=document.createElement(%27script%27);e.type=%27text/javascript%27;e.charset=%27gbk%27;e.src=l+%27loadime.php?refresh=&load=%27;document.body.appendChild(e)})();">Õâ¸öÁ¬½Ó</a>
-     ¼ÓÈëÄãµÄÊéÇ©£¬È»ºóÎÞÂÛÄãä¯ÀÀµ½ÄÄÀï£¬ÔÚÐèÒªÊäÈëÖÐÎÄÊ±£¬ÔÚÊéÇ©ÖÐÑ¡Ôñ»î×Ö£¬¾Í¿ÉÒÔÖ±½ÓÔÚÂÛÌ³ÖÐÊäÈëÁË¡£</li>
-  <li>ÄãÒ²¿ÉÒÔÔÚ<a href="notepad.php">»î×ÖÐ´°å</a>ÉÏÊÔÊÔ»î×ÖÊäÈë·¨µÄÐ§¹û¡£</li>
-  <li>¾ßÌå²Ù×÷£¬Çë²é¿´<a href="help.php">Ê¹ÓÃËµÃ÷</a>¡£</li>
-  <li>Gmail½ØÍ¼:<br/><img src="images/gmail.jpg" alt="Gmail screensnap"/></li>
-  <li>¸ü¶àµÄ½ØÍ¼:
+  <li>è¯·æŠŠ
+      <a href="javascript:var%20l=%27http://www.livechars.com/%27;(function(){var%20e=document.createElement(%27script%27);e.type=%27text/javascript%27;e.charset=%27gbk%27;e.src=l+%27loadime.php?refresh=&load=%27;document.body.appendChild(e)})();">è¿™ä¸ªè¿žæŽ¥</a>
+     åŠ å…¥ä½ çš„ä¹¦ç­¾ï¼Œç„¶åŽæ— è®ºä½ æµè§ˆåˆ°å“ªé‡Œï¼Œåœ¨éœ€è¦è¾“å…¥ä¸­æ–‡æ—¶ï¼Œåœ¨ä¹¦ç­¾ä¸­é€‰æ‹©æ´»å­—ï¼Œå°±å¯ä»¥ç›´æŽ¥åœ¨è®ºå›ä¸­è¾“å…¥äº†ã€‚</li>
+  <li>ä½ ä¹Ÿå¯ä»¥åœ¨<a href="notepad.php">æ´»å­—å†™æ¿</a>ä¸Šè¯•è¯•æ´»å­—è¾“å…¥æ³•çš„æ•ˆæžœã€‚</li>
+  <li>å…·ä½“æ“ä½œï¼Œè¯·æŸ¥çœ‹<a href="help.php">ä½¿ç”¨è¯´æ˜Ž</a>ã€‚</li>
+  <li>Gmailæˆªå›¾:<br/><img src="images/gmail.jpg" alt="Gmail screensnap"/></li>
+  <li>æ›´å¤šçš„æˆªå›¾:
     <a href="images/yahoo.jpg">Yahoo Mail</a>,&nbsp;
     <a href="images/mitbbs.jpg">MITBBS</a>,&nbsp;
-    <a href="images/wenxuecity.jpg">ÎÄÑ§³Ç</a></li>
+    <a href="images/wenxuecity.jpg">æ–‡å­¦åŸŽ</a></li>
 </ul>
 

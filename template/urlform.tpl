@@ -1,13 +1,13 @@
   <div class="message">
-    <a href="index.php" >»î×ÖÊéÇ©</a>¹¦ÄÜ±È»î×Öä¯ÀÀ¹¦ÄÜ¸ü¼ÓÇ¿´ó¡¢·½±ã¡£»î×Öä¯ÀÀ¼´½«±»ÌÔÌ­¡£
+    <a href="index.php" >æ´»å­—ä¹¦ç­¾</a>åŠŸèƒ½æ¯”æ´»å­—æµè§ˆåŠŸèƒ½æ›´åŠ å¼ºå¤§ã€æ–¹ä¾¿ã€‚æ´»å­—æµè§ˆå³å°†è¢«æ·˜æ±°ã€‚
   </div>
   <form method="get" action="browser.php">
   <fieldset style="border:0px;margin:50px 0px 0px 40px;">
-    <h1>ÇëÊäÈëÄãÒª·ÃÎÊµÄÍøÖ·</h1>
+    <h1>è¯·è¾“å…¥ä½ è¦è®¿é—®çš„ç½‘å€</h1>
     <input type="text" size="60" name="url" />
     <input type="submit" value="Go" />
     <h2 style="margin-top:60px">
-    ÀýÈç:
+    ä¾‹å¦‚:
     </h2>
     <ul>
         <li><a href='browser.php?url=http://www.mitbbs.com'>http://www.mitbbs.com</a></li>

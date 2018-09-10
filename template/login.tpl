@@ -1,20 +1,20 @@
 <form method="post" name="loginform" action="auth/login.php">
 <table border='0'>
 <tr>
-  <td colspan=2 style="text-align:center">ÓÃ»§µÇÂ½</td>
+  <td colspan=2 style="text-align:center">ç”¨æˆ·ç™»é™†</td>
 </tr>
 <tr>
-  <th>ÓÊÏä</th>
+  <th>é‚®ç®±</th>
   <td> <input type="text" name="useremail" size=13 /> </td>
 </tr>
-  <th>ÃÜÂë</th>
+  <th>å¯†ç </th>
   <td><input type="password" name="password" size=13 /> </td>
 </tr>
 <tr>
   <th></th>
   <td style="text-align:right">
-    <input type="submit" name="login" value="µÇÂ¼" />
-    <input type="submit" name="signin" value="×¢²á" />
+    <input type="submit" name="login" value="ç™»å½•" />
+    <input type="submit" name="signin" value="æ³¨å†Œ" />
   </td>
 </tr>
 </table>

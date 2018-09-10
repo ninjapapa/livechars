@@ -1,2 +1,2 @@
 {UNAME}<br />
-<a href="auth/logout.php">ÍË³öµÇÂ¼</a>
+<a href="auth/logout.php">é€€å‡ºç™»å½•</a>

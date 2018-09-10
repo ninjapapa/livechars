@@ -31,15 +31,15 @@
     &copy;2009 livechars.com - <a href="mailto:webmaster@livechars.com">Contact Us</a> - <a href="policy.php">Privacy Policy</a>
   </div>
   <div id="navAlpha"> 
-    <a href="http://www.livechars.com"><img style="margin-left:5px" src="images/logo.gif" alt="»î×Ö"/></a> 
+    <a href="http://www.livechars.com"><img style="margin-left:5px" src="images/logo.gif" alt="æ´»å­—"/></a> 
     <div class="menubox">
-      <div><a href="notepad.php">»î×ÖĞ´°å</a></div>
-      <div><a href="phpBB2/index.php">»î×ÖÂÛÌ³</a></div>
-      <div><a href="embed.php">¼¯³É»î×Ö</a></div>
-      <div><a href="help.php">Ê¹ÓÃËµÃ÷</a></div>
-      <div><a href="about.php">¹ØÓÚ»î×Ö</a></div>
+      <div><a href="notepad.php">æ´»å­—å†™æ¿</a></div>
+      <div><a href="phpBB2/index.php">æ´»å­—è®ºå›</a></div>
+      <div><a href="embed.php">é›†æˆæ´»å­—</a></div>
+      <div><a href="help.php">ä½¿ç”¨è¯´æ˜</a></div>
+      <div><a href="about.php">å…³äºæ´»å­—</a></div>
     </div>
-    <div style="text-align:center"><a href="http://www.livechars.com/en">English</a>|<a href="http://www.livechars.com">ÖĞÎÄ</a></div>
+    <div style="text-align:center"><a href="http://www.livechars.com/en">English</a>|<a href="http://www.livechars.com">ä¸­æ–‡</a></div>
   </div>
 <!-- BEGIN LOINGAREA -->
   <div id="loginarea">
@@ -47,7 +47,7 @@
   </div>
 <!-- END LOINGAREA -->
   <div id="bookmarkarea">
-    <a href="javascript:var%20l=%27http://www.livechars.com/%27;(function(){var%20e=document.createElement(%27script%27);e.type=%27text/javascript%27;e.charset=%27gbk%27;e.src=l+%27loadime.php?refresh=&load=%27;document.body.appendChild(e)})();"><img title="Çë½«Õâ¸öÍ¼±êÍÏÒ·µ½ÊéÇ©ÌõÉÏ£¬Äã¾Í¿ÉÒÔËæÊ±ËæµØÊäÈëÖĞÎÄÁË¡£" src="images/bookmark1.gif" alt="livechars"/></a>
+    <a href="javascript:var%20l=%27http://www.livechars.com/%27;(function(){var%20e=document.createElement(%27script%27);e.type=%27text/javascript%27;e.charset=%27gbk%27;e.src=l+%27loadime.php?refresh=&load=%27;document.body.appendChild(e)})();"><img title="è¯·å°†è¿™ä¸ªå›¾æ ‡æ‹–æ›³åˆ°ä¹¦ç­¾æ¡ä¸Šï¼Œä½ å°±å¯ä»¥éšæ—¶éšåœ°è¾“å…¥ä¸­æ–‡äº†ã€‚" src="images/bookmark1.gif" alt="livechars"/></a>
   </div>
   <div id="navBeta"> 
     <script type="text/javascript"><!--

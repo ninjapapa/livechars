@@ -2,21 +2,21 @@
 function inlinecheck(e){
   if(!e) e=window.event;
   if(!e.target.useremail.value.match(/^\s*[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}\s*$/)){
-    alert("µç×ÓÓÊÏä¸ñÊ½²»ÕıÈ·");
+    alert("ç”µå­é‚®ç®±æ ¼å¼ä¸æ­£ç¡®");
     return false;
   }
   if(e.target.password.value.length < 5){
-    alert("ÃÜÂë³¤¶ÈÖÁÉÙ5Î»");
+    alert("å¯†ç é•¿åº¦è‡³å°‘5ä½");
     return false;
   }
   if(e.target.password.value != e.target.cfpassword.value){
-    alert("Á½´ÎÊäÈëÃÜÂë²»Ò»ÖÂ");
+    alert("ä¸¤æ¬¡è¾“å…¥å¯†ç ä¸ä¸€è‡´");
     return false;
   }
   return true;
 }
 </script>
-<h1>×¢²áĞÂÓÃ»§</h1>
+<h1>æ³¨å†Œæ–°ç”¨æˆ·</h1>
 <!-- BEGIN MESS -->
 <h3 style="color:red">
   {MESSAGE}
@@ -25,18 +25,18 @@ function inlinecheck(e){
 <form method="post" name="signinform" action="signin.php" onsubmit="return inlinecheck(event)">
 <table border='0'>
 <tr>
-  <th>µç×ÓÓÊÏä</th>
+  <th>ç”µå­é‚®ç®±</th>
   <td> <input type="text" name="useremail" size=30> </td>
 </tr>
-  <th>ÃÜÂë</th>
+  <th>å¯†ç </th>
   <td><input type="password" name="password" size=30> </td>
 </tr>
 <tr>
-  <th>È·ÈÏÃÜÂë</th>
+  <th>ç¡®è®¤å¯†ç </th>
   <td><input type="password" name="cfpassword" size=30> </td>
 </tr>
 <tr>
-  <td><input type="submit" name="submit" value="Ìá½»"></td>
+  <td><input type="submit" name="submit" value="æäº¤"></td>
 </tr>
 </table>
 </form>

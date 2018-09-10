@@ -32,14 +32,14 @@
     &copy;2009 livechars.com - <a href="mailto:webmaster@livechars.com">Contact Us</a> - <a href="policy.php">Privacy Policy</a>
   </div>
   <div id="navAlpha"> 
-    <a href="http://www.livechars.com"><img src="images/logo.gif" alt="活字"/></a> 
+    <a href="http://www.livechars.com"><img src="images/logo.gif" alt="娲诲瓧"/></a> 
     <div class="menubox">
-      <div><a href="notepad.php">活字写板</a></div>
-      <div><a href="browser.php">活字浏览</a></div>
-      <div><a href="phpBB2/index.php">活字论坛</a></div>
-      <div><a href="embed.php">集成活字</a></div>
-      <div><a href="help.php">使用说明</a></div>
-      <div><a href="about.php">关于活字</a></div>
+      <div><a href="notepad.php">娲诲瓧鍐欐澘</a></div>
+      <div><a href="browser.php">娲诲瓧娴忚</a></div>
+      <div><a href="phpBB2/index.php">娲诲瓧璁哄潧</a></div>
+      <div><a href="embed.php">闆嗘垚娲诲瓧</a></div>
+      <div><a href="help.php">浣跨敤璇存槑</a></div>
+      <div><a href="about.php">鍏充簬娲诲瓧</a></div>
     </div>
   </div>
 <!-- BEGIN LOINGAREA -->

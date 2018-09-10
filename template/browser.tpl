@@ -22,7 +22,7 @@
   <input type="text" size="60" name="url" />
   <input type="submit" value="Go" />
   <a href="http://www.livechars.com"><img src="images/tiny_logo.gif" 
-     alt="»î×Ö" style="vertical-align:middle;border:0px"></img></a>
+     alt="æ´»å­—" style="vertical-align:middle;border:0px"></img></a>
   </fieldset>
 </form>
 

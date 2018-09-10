@@ -1,37 +1,37 @@
-<h1>ÔÚÄãµÄÍøÒ³ÖĞÊ¹ÓÃ»î×Ö</h1>
-Ö»Ğè¶ÔÄãµÄÍøÒ³×÷ºÜĞ¡µÄ¸Ä¶¯£¬¾Í¿ÉÒÔÈÃÄãµÄÓÃ»§·½±ãµÄÊäÈëÖĞÎÄ¡£
+<h1>åœ¨ä½ çš„ç½‘é¡µä¸­ä½¿ç”¨æ´»å­—</h1>
+åªéœ€å¯¹ä½ çš„ç½‘é¡µä½œå¾ˆå°çš„æ”¹åŠ¨ï¼Œå°±å¯ä»¥è®©ä½ çš„ç”¨æˆ·æ–¹ä¾¿çš„è¾“å…¥ä¸­æ–‡ã€‚
 <ul>
-  <li>ÔÚÄãµÄÍøÒ³µÄ<code>&lt;head&gt;</code>²¿·Ö£¬²åÈëÏÂÃæ´úÂë£º<br/>
+  <li>åœ¨ä½ çš„ç½‘é¡µçš„<code>&lt;head&gt;</code>éƒ¨åˆ†ï¼Œæ’å…¥ä¸‹é¢ä»£ç ï¼š<br/>
     <code>&lt;script type="text/javascript" id="imecode" charset="gbk" src="http://www.livechars.com/ime.js"&gt;&lt;/script&gt;</code>
   </li>
-  <li>ĞŞ¸Ä<code>&lt;body&gt;</code>tag£¬¼ÓÈëÏÂÃæÄÚÈİ£º<br/>
+  <li>ä¿®æ”¹<code>&lt;body&gt;</code>tagï¼ŒåŠ å…¥ä¸‹é¢å†…å®¹ï¼š<br/>
     <code>&lt;body onload="LIVECHARS.on_load(true)"&gt;</code>
   </li>
-  <li>Çë²Î¿¼<a href="http://www.livechars.com/index.php">http://www.livechars.com</a>Ö÷Ò³µÄÔ­´úÂë¡£
+  <li>è¯·å‚è€ƒ<a href="http://www.livechars.com/index.php">http://www.livechars.com</a>ä¸»é¡µçš„åŸä»£ç ã€‚
   </li>
 </ul>
 <h2>LIVECHARS API</h2>
 <ul>
   <li><code>LIVECHARS.on_load(is_embed,taggedonly,start_inputbar)<code>
     <ul>
-    <li>is_embed: true/false ÊÇ·ñ¿ªÆôÇ¶ÈëÄ£Ê½¡£Õâ¸öÓ¦¸Ã×ÜÊÇtrue¡£</li>
-    <li>taggedonly: true/false ÊÇ·ñÖ»ÔÚÖ¸¶¨µÄÊäÈëÇøÊäÈëÖĞÎÄ¡£Èç¹ûÑ¡Ôñtrue£¬ÄãĞèÒª¶ÔÊäÈëÖĞÎÄµÄÇøÓòÖ¸¶¨<code>class="LIVECHARSinput"</code>¡£ÕâÒ»²ÎÊıµÄÈ±Ê¡ÖµÎªfalse¡£</li>
-    <li>start_inputbar: true/false ÊÇ·ñÔÚÆô¶¯Ê±¾ÍÏÔÊ¾ÊäÈëÌõ¡£Èç¹ûÊÇfalse£¬½«ÔÚÆô¶¯Ê±ÏÔÊ¾»î×ÖÍ¼±ê¡£Ë«»÷Í¼±êºóµ¯³öÊäÈëÌõ¡£ÕâÒ»²ÎÊıµÄÈ±Ê¡ÖµÎª true¡£</li>
+    <li>is_embed: true/false æ˜¯å¦å¼€å¯åµŒå…¥æ¨¡å¼ã€‚è¿™ä¸ªåº”è¯¥æ€»æ˜¯trueã€‚</li>
+    <li>taggedonly: true/false æ˜¯å¦åªåœ¨æŒ‡å®šçš„è¾“å…¥åŒºè¾“å…¥ä¸­æ–‡ã€‚å¦‚æœé€‰æ‹©trueï¼Œä½ éœ€è¦å¯¹è¾“å…¥ä¸­æ–‡çš„åŒºåŸŸæŒ‡å®š<code>class="LIVECHARSinput"</code>ã€‚è¿™ä¸€å‚æ•°çš„ç¼ºçœå€¼ä¸ºfalseã€‚</li>
+    <li>start_inputbar: true/false æ˜¯å¦åœ¨å¯åŠ¨æ—¶å°±æ˜¾ç¤ºè¾“å…¥æ¡ã€‚å¦‚æœæ˜¯falseï¼Œå°†åœ¨å¯åŠ¨æ—¶æ˜¾ç¤ºæ´»å­—å›¾æ ‡ã€‚åŒå‡»å›¾æ ‡åå¼¹å‡ºè¾“å…¥æ¡ã€‚è¿™ä¸€å‚æ•°çš„ç¼ºçœå€¼ä¸º trueã€‚</li>
     </ul>
   </li>
   <li><code>LIVECHARS.onoff(on)</code>
     <ul>
-    <li>on: true/false ÏÔÊ¾ÊäÈëÌõ£¬»òÍ¼±ê¡£</li>
+    <li>on: true/false æ˜¾ç¤ºè¾“å…¥æ¡ï¼Œæˆ–å›¾æ ‡ã€‚</li>
     </ul>
   </li>
   <li><code>LIVECHARS.switchyw()</code>
-    ÇĞ»»ÖĞÓ¢ÎÄÊäÈëÄ£Ê½¡£
+    åˆ‡æ¢ä¸­è‹±æ–‡è¾“å…¥æ¨¡å¼ã€‚
   </li>
 </ul>
-<h2>ÂÛÌ³Ç¶ÈëÊµÀı</h2>
-<a href="phpBB2/index.php">»î×ÖÂÛÌ³</a>ÊÇÖ±½ÓÊ¹ÓÃµÄhostÍøÕ¾×Ô´øµÄphpBB2Ä£¿é¡£Æä¹¹ÔìÉÏÊ¹ÓÃÁËtemplateµÄ¸ÅÄî¡£ËùÓĞÍøÒ³¶¼Ê¹ÓÃÁËÏàÍ¬µÄtemplate£¬ËùÒÔÇ¶Èë»î×ÖÊäÈë·¨¾Í±äµÃÏàµ±µÄÈİÒ×¡£
+<h2>è®ºå›åµŒå…¥å®ä¾‹</h2>
+<a href="phpBB2/index.php">æ´»å­—è®ºå›</a>æ˜¯ç›´æ¥ä½¿ç”¨çš„hostç½‘ç«™è‡ªå¸¦çš„phpBB2æ¨¡å—ã€‚å…¶æ„é€ ä¸Šä½¿ç”¨äº†templateçš„æ¦‚å¿µã€‚æ‰€æœ‰ç½‘é¡µéƒ½ä½¿ç”¨äº†ç›¸åŒçš„templateï¼Œæ‰€ä»¥åµŒå…¥æ´»å­—è¾“å…¥æ³•å°±å˜å¾—ç›¸å½“çš„å®¹æ˜“ã€‚
 <ul>
-  <li>Ê×ÏÈ¶¨Î»°üÀ¨<code>&lt;head&gt;</code>²¿·ÖµÄtemplateÎÄ¼ş£º<code>templates/subSilver/overall_header.tpl</code></li>
-  <li>È»ºóÈçÇ°ÃæÃèÊöµÄ£¬¼ÓÈëjavascript´úÂëĞĞ£¬ºÍĞŞ¸Ä<code>&lt;body&gt;</code>tag</li>
+  <li>é¦–å…ˆå®šä½åŒ…æ‹¬<code>&lt;head&gt;</code>éƒ¨åˆ†çš„templateæ–‡ä»¶ï¼š<code>templates/subSilver/overall_header.tpl</code></li>
+  <li>ç„¶åå¦‚å‰é¢æè¿°çš„ï¼ŒåŠ å…¥javascriptä»£ç è¡Œï¼Œå’Œä¿®æ”¹<code>&lt;body&gt;</code>tag</li>
 </ul>
-¶ÔÓÚ·ç¸ñ±È½ÏÏÖ´úµÄÂÛÌ³£¬ĞŞ¸ÄÆğÀ´¶¼Ó¦¸ÃÒ»ÑùÈİÒ×¡£
+å¯¹äºé£æ ¼æ¯”è¾ƒç°ä»£çš„è®ºå›ï¼Œä¿®æ”¹èµ·æ¥éƒ½åº”è¯¥ä¸€æ ·å®¹æ˜“ã€‚
