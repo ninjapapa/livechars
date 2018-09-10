@@ -37,9 +37,9 @@ if(isset($_POST['useremail']) && isset($_POST['password'])){
 
   if(isset($_GET['message'])){
     if($_GET['message'] == "badlogin")
-      $message="´íÎóµÇÂ¼ĞÅÏ¢£¬ÇëÖØĞÂµÇÂ¼»ò×¢²áĞÂÓÃ»§¡£";
+      $message="é”™è¯¯ç™»å½•ä¿¡æ¯ï¼Œè¯·é‡æ–°ç™»å½•æˆ–æ³¨å†Œæ–°ç”¨æˆ·ã€‚";
     else if($_GET['message'] == "existemail")
-      $message="ÄúËùÌá¹©µÄµç×ÓÓÊÏäÒÑ¾­×¢²á£¬ÇëÑ¡ÔñÆäËüÓÊÏä£¬»òÊäÈëÕıÈ·ÃÜÂëµÇÂ¼¡£";
+      $message="æ‚¨æ‰€æä¾›çš„ç”µå­é‚®ç®±å·²ç»æ³¨å†Œï¼Œè¯·é€‰æ‹©å…¶å®ƒé‚®ç®±ï¼Œæˆ–è¾“å…¥æ­£ç¡®å¯†ç ç™»å½•ã€‚";
     $template->setCurrentBlock("MESS");
     $template->setVariable("MESSAGE",$message);
     $template->parseCurrentBlock();
