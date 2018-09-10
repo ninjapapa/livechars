@@ -1,21 +1,6 @@
 <?php
 require_once "include/auth.inc";
 $row=checkcookie();
-$uid=$row['uid'];
-if(isset($row['email'])){
-  $uemail=$row['email'];
-  $db_conn = new mysqli("mysql505.ixwebhosting.com","C264588_input",
-                        "Llysc190","C264588_LC");
-  $db_conn->query("set names gbk");
-  $query="SELECT phpinyin,phrase FROM userph WHERE uid={$uid}";
-
-  $result=$db_conn->query($query);
-  $uphstr="";
-  for($i=0;$i<$result->num_rows;$i++){
-    $row= @ $result->fetch_assoc();
-    $uphstr .= $row['phpinyin'].$row['phrase'];
-  }
-}
 
 if(isset($_GET['load'])) $load=1;
 if(isset($_GET['english'])) $english=1;
@@ -38,14 +23,6 @@ var LIVECHARS = function() {
   var uipage = baseurl + 'imetabs/imui.php?v=1.24';
   var uphpage = baseurl + 'imetabs/uphpage.php';
   var logo = baseurl + 'images/small_logo.gif';
-
-  var uid = <?print $uid;?>;
-  var email = "<?print $uemail;?>";
-  var logininfo=(email)?"ÄúÒÑµÇÂ¼ " + email + "¡£µã»÷ÕâÀï²é¿´°ïÖúĞÅÏ¢¡£"
-                       :"ÄúÎ´µÇÂ¼£¬ÓÃ»§×Ô×é´Ê½«ÔÚÊ¹ÓÃ½áÊøºóÏûÊ§¡£µã»÷ÕâÀï²é¿´°ïÖúĞÅÏ¢¡£";
-
-  var logininfo_en=(email)?"You logged in as " + email + ". Click here for help"
-                       :"You are not login yet. Click here for help";
 
   var config={};
   <?if($english):?>config.note_en=true;<?endif;?>
@@ -95,9 +72,9 @@ var LIVECHARS = function() {
   function add_version(is_en){
     var versioninfo;
     if(is_en){
-      versioninfo="InputBar version: " + LCUI.version() + ". IM version: " + LCIM.version() + ". System phrases version: " + LCIM.phversion() + "." + logininfo_en;
+      versioninfo="InputBar version: " + LCUI.version() + ". IM version: " + LCIM.version() + ". System phrases version: " + LCIM.phversion();
     }else{
-      versioninfo="ÊäÈëÌõ°æ±¾£º" + LCUI.version() + "¡£ÊäÈëÄ£¿é°æ±¾£º" + LCIM.version() + "¡£ÏµÍ³´Ê¿â°æ±¾£º" + LCIM.phversion() + "¡£" + logininfo;
+      versioninfo="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ±¾ï¿½ï¿½" + LCUI.version() + "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½æ±¾ï¿½ï¿½" + LCIM.version() + "ï¿½ï¿½ÏµÍ³ï¿½Ê¿ï¿½æ±¾ï¿½ï¿½" + LCIM.phversion();
     }
     var hlk=document.getElementById("helplk");
     if(hlk) hlk.title=versioninfo;
