@@ -1,7 +1,4 @@
 <?php
-require_once "include/auth.inc";
-$row=checkcookie();
-
 if(isset($_GET['load'])) $load=1;
 if(isset($_GET['english'])) $english=1;
 
