@@ -45,17 +45,6 @@
     <a href="javascript:var%20l=%27http://www.livechars.com/%27;(function(){var%20e=document.createElement(%27script%27);e.type=%27text/javascript%27;e.charset=%27gbk%27;e.src=l+%27loadime.php?refresh=&load=%27;document.body.appendChild(e)})();"><img title="请将这个图标拖曳到书签条上，你就可以随时随地输入中文了。" src="images/bookmark1.gif" alt="livechars"/></a>
   </div>
   <div id="navBeta"> 
-    <script type="text/javascript"><!--
-    google_ad_client = "pub-0025173198926549";
-    /* 120x600, created 10/22/09 */
-    google_ad_slot = "7924481024";
-    google_ad_width = 120;
-    google_ad_height = 600;
-    //-->
-    </script>
-    <script type="text/javascript"
-    src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-    </script>
   </div>
   <div class="clear"></div>
 
