@@ -34,7 +34,6 @@
     <a href="http://www.livechars.com"><img style="margin-left:5px" src="images/logo.gif" alt="活字"/></a> 
     <div class="menubox">
       <div><a href="notepad.php">活字写板</a></div>
-      <div><a href="phpBB2/index.php">活字论坛</a></div>
       <div><a href="embed.php">集成活字</a></div>
       <div><a href="help.php">使用说明</a></div>
       <div><a href="about.php">关于活字</a></div>
