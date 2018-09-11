@@ -38,7 +38,9 @@
       <div><a href="help.php">使用说明</a></div>
       <div><a href="about.php">关于活字</a></div>
     </div>
+    <!--
     <div style="text-align:center"><a href="http://www.livechars.com/en">English</a>|<a href="http://www.livechars.com">中文</a></div>
+    -->
   </div>
   <div id="bookmarkarea">
     <a href="javascript:var%20l=%27http://www.livechars.com/%27;(function(){var%20e=document.createElement(%27script%27);e.type=%27text/javascript%27;e.charset=%27gbk%27;e.src=l+%27loadime.php?refresh=&load=%27;document.body.appendChild(e)})();"><img title="请将这个图标拖曳到书签条上，你就可以随时随地输入中文了。" src="images/bookmark1.gif" alt="livechars"/></a>
